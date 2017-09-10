@@ -52,14 +52,14 @@ CREATE DATABASE `nomedatabela`;
 
 ![Variáveis básicas da classe"](img/img005.JPG)
  
- * Connection connection (variável que faz a conexão com o banco de dados)¹
- * String DRIVER (recebe endereço do pacote do driver de conexão)
- * String SERVIDOR (IP do servidor - *hostname*)
- * String PORTA (porta para conexão com o banco - *port*)
- * String BANCO (nome da sua tabela do banco de dados - *tabela que você criou*)
- * String USUARIO (nome de usuário criado - *user*)
- * String SENHA (senha do usuário - *password*)
- * String URL (caminho da conexão percorrido pelo java *conjunto de tudo*)²
+ * `Connection connection` (variável que faz a conexão com o banco de dados)¹
+ * `String DRIVER` (recebe endereço do pacote do driver de conexão)
+ * `String SERVIDOR` (IP do servidor - *hostname*)
+ * `String PORTA` (porta para conexão com o banco - *port*)
+ * `String BANCO` (nome da sua tabela do banco de dados - *tabela que você criou*)
+ * `String USUARIO` (nome de usuário criado - *user*)
+ * `String SENHA` (senha do usuário - *password*)
+ * `String URL` (caminho da conexão percorrido pelo java *conjunto de tudo*)²
  
  ¹*Será necessário importar o pacote java.sql.Connection;*
  
