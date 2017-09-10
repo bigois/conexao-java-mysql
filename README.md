@@ -1,5 +1,5 @@
 # TUTORIAL DE CONEXÃO COM BANCO DE DADOS MYSQL
-#### Este repositório tem como objetivo ensinar de maneira detalhada o processo de conexão com banco de dados MySQL através da linguagem Java*
+#### Este repositório tem como objetivo ensinar de maneira detalhada o processo de conexão com banco de dados MySQL através da linguagem Java
 
 (caso você não tenha o seu MySQL Workbench configurado, siga esse tutorial: [Curso MySQL #02b - Instalando o XAMPP](https://www.youtube.com/watch?v=R2HrwSQ6EPM&list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r&index=3))
 
