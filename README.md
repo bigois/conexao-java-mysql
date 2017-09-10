@@ -1,9 +1,7 @@
 # TUTORIAL DE CONEXÃO COM BANCO DE DADOS MYSQL
 #### Este repositório tem como objetivo ensinar de maneira detalhada o passo-a-passo para conexão ao banco de dados MySQL + Java*
 
-##### Caso você não tenha o seu MySQL Workbench configurado, siga esse tutorial:
-
-[Curso MySQL #02b - Instalando o XAMPP](https://www.youtube.com/watch?v=R2HrwSQ6EPM&list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r&index=3)
+##### (caso você não tenha o seu MySQL Workbench configurado, siga esse tutorial: [Curso MySQL #02b - Instalando o XAMPP](https://www.youtube.com/watch?v=R2HrwSQ6EPM&list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r&index=3))
 
 
 ### 1) Crie uma conexão no MySQL Workbench ou obtenha os dados da conexão desejada
@@ -29,16 +27,18 @@ Clique na conexão criada e no script.sql aberto, digite e execute o seguinte co
 ```
 CREATE DATABASE `nomedatabela`;
 ```
-*Dê o nome que achar melhor para a sua tabela*
+*(dê o nome que achar melhor para a sua tabela)*
 
 ![Criando tabela](img/img006.JPG)
 
 
-### 4) Faça o download do driver de conexão com o banco MySQL
+### 4) Faça o download do driver de conexão com o banco MySQL, descompacte e adicione ao projeto
 
 [Link para download do driver](https://www.mysql.com/products/connector/)
 
 ![Baixando JDBC MySQL](img/img003.JPG)
+
+*(dependendo da sua IDE, haverão formas diferentes de adicionar o driver, mas a forma mais fácil é clicar com o botão direito do mouse em cima do projeto e procurar algo como "adicionar bibliotecas" ou "add jar files"). Pesquise no YouTube: Adicionando Drive de Conexão MySQL nome-da-sua-ide.*
 
 
 ### 5) Na sua IDE ou editor de códigos, crie uma classe "Conexao.java"
@@ -46,7 +46,7 @@ CREATE DATABASE `nomedatabela`;
 ![Criando classe "Conexão.java"](img/img004.JPG)
 
 
-### 6) Adicione as variáveis básicas da classe**
+### 6) Adicione as variáveis básicas da classe
 
 *(agora utilize as informações de conexão com o banco que você guardou)*
 
