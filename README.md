@@ -1,5 +1,5 @@
 # TUTORIAL DE CONEXÃO COM BANCO DE DADOS MYSQL
-## Este repositório tem como objetivo ensinar de maneira detalhada o passo-a-passo para conexão ao banco de dados MySQL + Java
+*Este repositório tem como objetivo ensinar de maneira detalhada o passo-a-passo para conexão ao banco de dados MySQL + Java*
 
 ### 1) Crie uma conexão no MySQL Workbench ou obtenha os dados da conexão desejada
 
