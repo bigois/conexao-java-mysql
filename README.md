@@ -1,7 +1,7 @@
 # TUTORIAL DE CONEXÃO COM BANCO DE DADOS MYSQL
 #### Este repositório tem como objetivo ensinar de maneira detalhada o processo de conexão com banco de dados MySQL através da linguagem Java
 
-(caso você não tenha o seu MySQL Workbench configurado, siga esse tutorial: [Curso MySQL #02b - Instalando o XAMPP](https://www.youtube.com/watch?v=R2HrwSQ6EPM&list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r&index=3))
+Caso você não tenha o seu MySQL Workbench configurado, siga esse tutorial: [Curso MySQL #02b - Instalando o XAMPP](https://www.youtube.com/watch?v=R2HrwSQ6EPM&list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r&index=3)
 
 
 ### 1) Crie uma conexão no MySQL Workbench ou obtenha os dados da conexão que deseja conectar
@@ -27,7 +27,7 @@ Clique na conexão criada e no script.sql aberto, digite e execute o seguinte co
 ```
 CREATE DATABASE `nomedatabela`;
 ```
-*(dê o nome que achar melhor para a sua tabela)*
+Dê o nome que achar melhor para a sua tabela
 
 ![Criando tabela](img/img006.JPG)
 
@@ -38,8 +38,8 @@ CREATE DATABASE `nomedatabela`;
 
 ![Baixando JDBC MySQL](img/img003.JPG)
 
-*(o processo de adição do driver de conexão ao projeto varia conforme a IDE utilizada, porém a forma mais fácil de realizar esse procedimento é clicar com o botão direito do mouse em cima do projeto e procurar algo como "adicionar bibliotecas" ou "add jar files"). 
-Caso continue com dificuldade, pesquise no YouTube: "Adicionando Driver de Conexão MySQL nome-da-sua-ide".*
+O processo de adição do driver de conexão ao projeto varia conforme a IDE utilizada, porém a forma mais fácil de realizar esse procedimento é clicar com o botão direito do mouse em cima do projeto e procurar algo como "adicionar bibliotecas" ou "add jar files"). 
+Caso continue com dificuldade, pesquise no YouTube: "Adicionando Driver de Conexão MySQL nome-da-sua-ide".
 
 
 ### 5) Na sua IDE ou editor de códigos, crie uma classe "Conexao.java"
@@ -49,7 +49,7 @@ Caso continue com dificuldade, pesquise no YouTube: "Adicionando Driver de Conex
 
 ### 6) Adicione as variáveis básicas da classe
 
-*(utilize as informações de conexão com o banco que você guardou)*
+Utilize as informações de conexão com o banco que você guardou
 
 ![Variáveis básicas da classe](img/img005.JPG)
  
