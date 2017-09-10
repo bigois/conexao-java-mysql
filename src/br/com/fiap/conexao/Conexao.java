@@ -12,4 +12,7 @@ public class Conexao {
 	private static final String URL = "jdbc:mysql:thin:@";
 	private static final String USUARIO = "root";
 	private static final String SENHA = "";
+	
+	private Conexao() {
+	}
 }
