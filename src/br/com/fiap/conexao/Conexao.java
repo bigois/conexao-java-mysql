@@ -29,6 +29,7 @@ public class Conexao {
 				JOptionPane.showMessageDialog(null, "Não foi possível estabalecer conexão com o banco de dados\n" + e);
 			}
 		}
+		JOptionPane.showMessageDialog(null, "Conexão realizada com sucesso!");
 		return connection;
 	}
 	
