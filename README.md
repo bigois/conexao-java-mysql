@@ -60,7 +60,7 @@ Caso continue com dificuldade, pesquise no YouTube: "Adicionando Driver de Conex
  * `String BANCO` (nome da sua tabela do banco de dados - *tabela que você criou*)
  * `String USUARIO` (nome de usuário criado - *user*)
  * `String SENHA` (senha do usuário - *password*)
- * `String URL` (caminho da conexão percorrido pelo java *conjunto de tudo*)²
+ * `String URL` (caminho da conexão percorrido pelo Java *conjunto de tudo*)²
  
  ¹*Será necessário importar o pacote java.sql.Connection;*
  
