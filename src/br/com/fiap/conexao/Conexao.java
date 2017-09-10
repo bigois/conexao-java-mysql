@@ -1,5 +1,6 @@
 package br.com.fiap.conexao;
 
+import javax.swing.JOptionPane;
 import com.mysql.jdbc.Connection;
 
 @SuppressWarnings("unused")
@@ -12,7 +13,18 @@ public class Conexao {
 	private static final String URL = "jdbc:mysql:thin:@";
 	private static final String USUARIO = "root";
 	private static final String SENHA = "";
-	
+
 	private Conexao() {
+	}
+
+	public static Connection getConnection() {
+		if (connection == null) {
+			try {
+				Class.forName(DRIVER);
+			} catch (ClassNotFoundException e) {
+				JOptionPane.showMessageDialog(null, "Erro ao carregar o driver de conexão\n" + e);
+			}
+		}
+		return connection;
 	}
 }
