@@ -1,7 +1,10 @@
 package br.com.fiap.conexao;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+import java.sql.SQLException;
 import javax.swing.JOptionPane;
-import com.mysql.jdbc.Connection;
 
 @SuppressWarnings("unused")
 public class Conexao {
@@ -17,12 +20,15 @@ public class Conexao {
 	private Conexao() {
 	}
 
-	public static Connection getConnection() {
+	public static synchronized Connection getConnection() {
 		if (connection == null) {
 			try {
 				Class.forName(DRIVER);
+				connection = DriverManager.getConnection(URL, USUARIO, SENHA);
 			} catch (ClassNotFoundException e) {
 				JOptionPane.showMessageDialog(null, "Erro ao carregar o driver de conexão\n" + e);
+			} catch (SQLException e) {
+				JOptionPane.showMessageDialog(null, "Não foi possível estabalecer conexão com o banco de dados\n" + e);
 			}
 		}
 		return connection;
